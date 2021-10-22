@@ -1,8 +1,9 @@
 import requests 
 import json 
+import getkey
 
 # get token from here: https://developer.webex.com/docs/api/getting-started
-access_token = "insert your token here"
+access_token = getkey.getkey()
 
 # here we will get the list of messages
 
@@ -45,7 +46,8 @@ def send_msg_to_group(groupId):
 
 headers = {'Authorization': 'Bearer {}'.format(access_token),'Content-Type': 'application/json' }
 groupId="Enter the room id or the group id"
-send_msg_to_group(groupId=groupId)
+print(access_token)
+# send_msg_to_group(groupId=groupId)
 
 
 

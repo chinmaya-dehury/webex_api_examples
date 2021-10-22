@@ -1,0 +1,11 @@
+{
+    "groups": [
+         { "group": { "group_id": "G1_chinmaya" , "group_name": "GROUP_chinmaya_A" ,    
+                      "members": [   
+                        {"person_id": "P-2" , "person_name": "Chinmaya dehury", "email": "email@id.here"},
+                        {"person_id": "P-3" , "person_name": "Chinmaya Dehury", "email": "email@id.here"} 
+                      ]
+                    }
+         }
+      ]
+}
