@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd sample-app
 mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
